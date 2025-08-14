@@ -50,12 +50,12 @@ python train_vit.py --epochs 24 --batch_size 128 --lr 0.001 --out_dir checkpoint
 
 for RESNET
 
-python infer_image.py --ckpt checkpoints_resnet/best.pt --image_path ./my_image.jpg
+python infer_image.py --ckpt checkpoints_resnet/resnet_best.pt --image_path ./my_image.jpg
 
 for ViT:
 
-python infer_image.py --ckpt checkpoints_vit/best.pt --image_path ./my_image.jpg
+python infer_image.py --ckpt checkpoints_vit/vit_best.pt --image_path ./my_image.jpg
 
 
 
-
+de

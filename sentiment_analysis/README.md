@@ -61,11 +61,11 @@ python train_transformer.py --out_dir checkpoints_transformer --epochs 6 --batch
 
 🔍 Inference
 
-Once a model is trained, run:
+For LSTM(RNN):
 
-python infer_sentiment.py --ckpt checkpoints_rnn/best_model.pt --text "I loved the movie!"
+python infer_sentiment.py --ckpt checkpoints_rnn/best_model.pt --text 'I loved the movie!'
 
 Or for Transformer:
 
-python infer_sentiment.py --ckpt checkpoints_transformer/transformer_best.pt --text "This was amazing!"
+python infer_sentiment.py --ckpt checkpoints_transformer/transformer_best.pt --text 'This was amazing!'
 

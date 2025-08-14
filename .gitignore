@@ -27,3 +27,6 @@ venv/
 sentiment_analysis/sent/
 speech_to_text/speech/
 image_classification/img/
+
+# macOS Finder settings
+.DS_Store

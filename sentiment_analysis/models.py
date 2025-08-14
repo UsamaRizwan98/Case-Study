@@ -3,7 +3,7 @@ import torch.nn as nn
 import math
 
 # -------------------------
-# RNN (LSTM/GRU) classifier
+# RNN (LSTM) classifier
 # -------------------------
 class RNNClassifier(nn.Module):
     def __init__(self, vocab_size, embed_dim=128, hidden_dim=128, num_layers=1, rnn_type="lstm", bidirectional=True, num_classes=2, dropout=0.2):
