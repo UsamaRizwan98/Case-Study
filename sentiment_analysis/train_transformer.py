@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Train a simple Transformer encoder classifier on IMDB dataset.
-Safe for Apple Silicon MPS (no nested tensor mask bug).
+Safe for Apple Silicon MPS.
 """
 
 import os

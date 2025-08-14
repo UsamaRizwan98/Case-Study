@@ -55,7 +55,3 @@ python infer_image.py --ckpt checkpoints_resnet/resnet_best.pt --image_path ./my
 for ViT:
 
 python infer_image.py --ckpt checkpoints_vit/vit_best.pt --image_path ./my_image.jpg
-
-
-
-de

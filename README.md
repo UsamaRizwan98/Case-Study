@@ -19,7 +19,7 @@ Case-Study-DS/
 ## 📜 Sections Overview
 
 ### 1️⃣ Sentiment Analysis – IMDB Reviews
-- **Models:** RNN (LSTM/GRU) & Transformer (from scratch)
+- **Models:** RNN & Transformer
 - **Dataset:** [IMDB Movie Reviews](https://ai.stanford.edu/~amaas/data/sentiment/)
 - **Highlights:**  
   - Simple tokenizer & vocab builder (no external NLP libs)

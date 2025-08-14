@@ -37,7 +37,6 @@ tar -xzf aclImdb_v1.tar.gz
 🧠 Models
 1. RNN-based Classifier
 
-Architecture: LSTM or GRU
 
 Configurable embedding size, hidden size, bidirectionality
 

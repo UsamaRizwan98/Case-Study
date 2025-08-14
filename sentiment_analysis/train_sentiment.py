@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Train an RNN-based sentiment classifier (LSTM or GRU) from scratch on the IMDB dataset.
+Train an RNN-based sentiment classifier from scratch on the IMDB dataset.
 
 Usage:
     python train_sentiment.py --model lstm --epochs 6 --batch_size 64
