@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets & archives
+data/
+*aclImdb/
+*.tar.gz
+*.zip
+*.gz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints*/
+checkpoints_*/
+
+# Colab / Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+sentiment_analysis/sent/
+speech_to_text/speech/
+image_classification/img/
